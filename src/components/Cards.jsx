@@ -2,7 +2,7 @@ import GetImages from "./GetImages";
 import "../styles/Cards.css";
 
 export default function Cards() {
-  const gamesArray = GetImages();
+  const gamesArray = GetImages().slice(0, 18);
 
   return (
     <div className="cards-container">
