@@ -9,6 +9,12 @@ body {
   padding: o;
 }
 
+button {
+  padding: 0;
+  all: unset;
+  cursor: pointer;
+}
+
 p {
   text-align: center;
   margin: 0;
