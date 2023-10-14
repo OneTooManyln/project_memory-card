@@ -15,10 +15,12 @@ img {
 }
 
 .card {
-  border: 3px solid #0c0a09;
+  border: 3px solid #f5f5f4;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #0c0a09;
+  background-color: #f5f5f452;
   border-radius: 5px;
   height: 250px;
   width: 180px;
@@ -27,7 +29,6 @@ img {
 
 .card p {
   margin-top: 5px;
-  color: #0c0a09;
   padding: 0px 6px;
   width: 100%;
 }
