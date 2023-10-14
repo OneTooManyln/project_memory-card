@@ -1,0 +1,15 @@
+.scoreboard {
+  display: flex;
+  gap: 25px;
+  color: #f5f5f4;
+}
+
+.current-score {
+  display: flex;
+  gap: 7px;
+}
+
+.highest-score {
+  display: flex;
+  gap: 7px;
+}
