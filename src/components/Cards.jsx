@@ -1,4 +1,4 @@
-import handleImages from "./GetImages";
+import handleImages from "./HandleImages";
 import "../styles/Cards.css";
 
 export default function Cards({
