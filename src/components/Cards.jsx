@@ -1,4 +1,4 @@
-import GetImages from "./GetImages";
+import handleImages from "./GetImages";
 import "../styles/Cards.css";
 
 export default function Cards({
@@ -9,7 +9,10 @@ export default function Cards({
   clickedCards,
   setClickedCards,
 }) {
-  const gamesArray = GetImages().slice(0, 18);
+  const { getImages, shuffle } = handleImages();
+
+  let gamesArray = getImages();
+  gamesArray = shuffle(gamesArray);
 
   const handleCardClick = (cardId) => {
     if (clickedCards.includes(cardId)) {
